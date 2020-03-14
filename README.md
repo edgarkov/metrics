@@ -29,5 +29,5 @@ docker build -t metrics .
 
 Then you can run container with needed arguments
 
-docker run metrics python metrics cpu
-docker run metrics python metrics mem
+docker run metrics cpu
+docker run metrics mem

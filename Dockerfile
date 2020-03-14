@@ -4,5 +4,5 @@ ADD metrics /
 
 RUN pip install psutil
 
-# CMD [ "python", "./metrics"]
+ENTRYPOINT [ "python", "./metrics"]
 CMD []
