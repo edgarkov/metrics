@@ -14,8 +14,6 @@ if (len(sys.argv) > 1):
         print (f"system.cpu.system {psutil.cpu_times()[2]}")
 
     elif (sys.argv[1] == "mem" ):
-        print ("mem")
-
         print (f"virtual total {psutil.virtual_memory()[0]}")
         print (f"virtual used {psutil.virtual_memory()[3]}")
         print (f"virtual free {psutil.virtual_memory()[4]}")
